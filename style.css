@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  background-image: url("./img/body-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.box {
+  background-color: white;
+  text-align: center;
+  width: 600px;
+  margin: 100px auto;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.box h1 {
+  font-size: 48px;
+}
+
+.box h3 {
+  font-size: 22px;
+}
+
+.box p {
+  text-align: justify;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.optlist {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.optlist li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.optlist li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.optlist li a:hover {
+  background-color: slategrey;
+  color: white;
+}
+
+.shapelist li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.shapelist li a:hover {
+  background-color: slategrey;
+}
+
+.bd {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.submitbutton {
+  padding: 5px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  width: 200px;
+}
+
+.submitbutton:hover {
+  background-color: slategrey;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.qulist p {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px;
+  font-size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 5px;
+}
+
+footer {
+  position: fixed;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  bottom: 0;
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+
+
